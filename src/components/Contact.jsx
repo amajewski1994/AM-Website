@@ -21,8 +21,6 @@ const Contact = () => {
     const { target } = e;
     const { name, value } = target;
 
-    console.log(import.meta.env.VITE_EMAIL)
-
     setForm({
       ...form,
       [name]: value,
@@ -75,9 +73,8 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
-      <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+      <motion.div variants={slideIn("left", "tween", 0.2, 1)}
+        className='xl:flex-1 bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>

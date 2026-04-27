@@ -42,11 +42,10 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software developer with experience in JavaScript, TypeScript
-        and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I create interactive 3D and AR experiences that connect design, technology and user interaction.
+        My focus is on building responsive and performant real time environments, from browser based 3D applications to large scale AR experiences used in real world contexts.
+        I enjoy working on projects where visuals, interaction and performance are equally important.
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

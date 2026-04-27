@@ -17,10 +17,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import aframe from "./tech/aframe.png";
+import lensStudio from "./tech/lensstudio.png";
 
-import works_restaurant from "./works_restaurant.png";
-import works_coffeehouse from "./works_coffeehouse.png";
-import works_fcbarcelona from "./works_fcbarcelona.png";
+import Heineken_Linkpost from "./Heineken_Linkpost.jpg";
+import Rossmannia from "./Rossmannia.png";
+import Philips_Linkpost from "./Philips_Linkpost.jpg";
 
 export {
   logo,
@@ -41,7 +43,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  works_restaurant,
-  works_coffeehouse,
-  works_fcbarcelona,
+  aframe,
+  lensStudio,
+  Heineken_Linkpost,
+  Rossmannia,
+  Philips_Linkpost,
 };
